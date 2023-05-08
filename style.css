@@ -1,10 +1,15 @@
+body {
+  margin: 0;
+}
+
+
 h1, h2, h3, h4 {
     text-align: center;
 }
 .menu {
   width: 35px;
   height: 5px;
-  background-color: black;
+  background-color: white;
   margin: 6px 0;
 }
 .container {
@@ -17,14 +22,14 @@ img {
 }
 /* Navbar container */
 .navbar {
-  overflow: hidden;
   background-color: #333;
   font-family: Arial;
+  display: flex;
+  justify-content: end;
 }
 
 /* Links inside the navbar */
 .navbar a {
-  float: left;
   font-size: 16px;
   color: white;
   text-align: center;
@@ -33,10 +38,10 @@ img {
 }
 
 /* The dropdown container */
-.dropdown {
+/* .dropdown {
   float: left;
   overflow: hidden;
-}
+} */
 
 /* Dropdown button */
 .dropdown .dropbtn {
@@ -48,6 +53,11 @@ img {
   background-color: inherit;
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
+  display: flex;
+}
+
+button p {
+  margin: 10px;
 }
 
 /* Add a red background color to navbar links on hover */
@@ -84,3 +94,5 @@ img {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+
