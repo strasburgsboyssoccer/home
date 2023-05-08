@@ -102,3 +102,54 @@ button p {
 .activity {
   padding: 30px 5px;
 }
+
+
+.team {
+  padding: 20px;
+}
+
+#team-white {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#team-white td, #team-white th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#team-white tr:nth-child(even){background-color: #f2f2f2;}
+
+#team-white tr:hover {background-color: #ddd;}
+
+#team-white th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: white;
+  color: purple;
+}
+
+#team-purple {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#team-purple td, #team-purple th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#team-purple tr:nth-child(even){background-color: #f2f2f2;}
+
+#team-purple tr:hover {background-color: #ddd;}
+
+#team-purple th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: purple;
+  color: white;
+}
