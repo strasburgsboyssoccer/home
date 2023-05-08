@@ -2,7 +2,9 @@ body {
   margin: 0;
 }
 
-
+header {
+  padding: 100px 50px;
+}
 h1, h2, h3, h4 {
     text-align: center;
 }
@@ -104,8 +106,9 @@ button p {
 }
 
 
-.team {
+.table-team {
   padding: 20px;
+  max-width: 500px;
 }
 
 #team-white {
