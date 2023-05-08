@@ -95,4 +95,10 @@ button p {
   display: block;
 }
 
+.activities {
+  padding-top: 100px;
+}
 
+.activity {
+  padding: 30px 5px;
+}
